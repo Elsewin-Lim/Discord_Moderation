@@ -1,0 +1,7 @@
+discord.py
+torch
+transformers
+aiohttp
+pandas
+python-dotenv
+
