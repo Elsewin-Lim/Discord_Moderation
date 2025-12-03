@@ -50,9 +50,32 @@ python bot.py
 
 ### Sentiment Analysis Commands
 
-* `!export`
-  Fetches messages from the last 24 hours in the current channel, runs sentiment analysis, and posts a summary embed with counts, percentages, and average model confidence.
+* `!analyze <time>`
+  Fetches messages from the specified time window in the current channel, runs sentiment analysis, and posts a summary embed with counts, percentages, and average model confidence.
 
+  **Parameters:**
+
+  * `<time>`: Optional. Specifies how far back to analyze messages. Acceptable formats include:
+
+    * Minutes: `5m`, `5mn`, `5 min`, `5 minutes`
+    * Hours: `2h`, `2hr`, `2 hours`
+    * Days: `1d`, `2 days`
+
+  **Notes:**
+
+  * Default: `24h` (analyzes the last 24 hours if no time is provided)
+  * Minimum allowed: 5 minutes
+  * Maximum allowed: 7 days
+  * The command will display the time in a user-friendly format in the summary, e.g., `8 minutes`, `2 hours 5 minutes`.
+
+**Example usage:**
+
+```
+!analyze 30m     → Analyze messages from the last 30 minutes
+!analyze 2h      → Analyze messages from the last 2 hours
+!analyze 1 day   → Analyze messages from the last 1 day
+```
+---
 
 ### Topic Filter Commands
 
