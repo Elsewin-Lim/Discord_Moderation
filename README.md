@@ -13,7 +13,7 @@ Uses local Hugging Face RoBERTa models (provided in `./models/`) and stores logs
 * Clean summary embeds with counts, percentages, and average model confidence
 * Local CSV logging of raw and analyzed messages
 * Automatic message deletion for off-topic messages after warning
-
+V
 ---
 
 ## Discord Bot Link Invitation
@@ -43,6 +43,31 @@ pip install -r requirements.txt
 ```bash
 python bot.py
 ```
+
+---
+
+## 📦 Model Sources (Hugging Face)
+
+This bot uses two RoBERTa-based models hosted on my Hugging Face profile.
+You can download or update the model weights from the following links:
+
+### 🔵 Sentiment Classification Model
+
+**Hugging Face Link:**
+➡️ [https://huggingface.co/Franklin001/sentimental](https://huggingface.co/Franklin001/sentimental)
+
+Used for:
+
+* Positive / Neutral / Negative sentiment detection
+
+### 🟣 Topic Classification Model
+
+**Hugging Face Link:**
+➡️ [https://huggingface.co/Franklin001/topic_classifier](https://huggingface.co/Franklin001/topic_classifier)
+
+Used for:
+
+* Classifies messages into: **World**, **Sports**, **Business**, **Sci/Tech**
 
 ---
 
