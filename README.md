@@ -155,6 +155,26 @@ World, Sports, Business, Sci/Tech
 
 ---
 
+## 🤝🏽 Contribution
+
+Elsewin:
+
+- Testing and Training the Roberta Transformer for sentiment analysis
+- Finding most of the datasets for training the transformer
+- Take part in building a part of the discord bot
+
+Shito, Chanheng, and Tesroth:
+
+- Help each other build & modify model for sentiment analysis
+- Finding some datasets for training
+- Contribute with Seima for discord bot testing
+
+Seima:
+
+- Created the Discord Bot
+- Integrated the models with the Bot
+- Testing the final results
+
 ### Notes
 
 * The bot only works with the pre-defined topics above.
