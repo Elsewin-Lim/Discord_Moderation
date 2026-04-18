@@ -19,7 +19,7 @@ V
 ## Discord Bot Link Invitation
 
 ```
-https://discord.com/oauth2/authorize?client_id=1434914563421110312&permissions=17179978784&integration_type=0&scope=bot
+https://discord.com/oauth2/authorize?client_id=1495106854886441030&permissions=8&integration_type=0&scope=bot
 ```
 
 ---
